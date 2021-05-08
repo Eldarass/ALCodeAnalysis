@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ALCodeAnalysis.Naming.MethodNameValidation">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="8.824" />
+        <Point X="11.25" Y="9.516" />
+        <Point X="11.75" Y="9.516" />
+        <Point X="11.75" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAABAAAQAgAAAAAAJAAAAAAAQAAAAAEAAAAAA=</HashCode>
+      <FileName>Naming\MethodNameValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Naming.VariablesNameValidation">
+    <Position X="19.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAEAgAQAggBAACAAAAAAAAAAAAAGAAAAAAAA=</HashCode>
+      <FileName>Naming\VariablesNameValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Property.CaptionPropertyValidation">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABCAAAABwAgAAEAAgAAAAAAgAAAAAAAQAAAACA=</HashCode>
+      <FileName>Property\CaptionPropertyValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Readability.ExtensionsFieldsIDValidation">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <InheritanceLine Type="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="7.943" />
+        <Point X="12.494" Y="7.943" />
+        <Point X="12.494" Y="5.45" />
+        <Point X="17.062" Y="5.45" />
+        <Point X="17.062" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAQggAAAAAAAAAQACAAAAAAwAAAAAAAA=</HashCode>
+      <FileName>Readability\ExtensionsFieldsIDValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Readability.GlobalVariablesPlacement">
+    <Position X="18" Y="6" Width="1.5" />
+    <InheritanceLine Type="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="7.943" />
+        <Point X="12.5" Y="7.943" />
+        <Point X="12.5" Y="5.45" />
+        <Point X="18.75" Y="5.45" />
+        <Point X="18.75" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAQAgAAAAAAAAAAAAAAAEAIAAAAAAAAA=</HashCode>
+      <FileName>Readability\GlobalVariablesPlacement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Readability.SystemWordsCaseValidation">
+    <Position X="14.5" Y="6" Width="1.5" />
+    <InheritanceLine Type="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="7.943" />
+        <Point X="12.503" Y="7.943" />
+        <Point X="12.503" Y="5.464" />
+        <Point X="15.25" Y="5.464" />
+        <Point X="15.25" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCAAAAIQAgAAAIAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Readability\SystemWordsCaseValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Readability.Rule019UseParenthesisForFunctionCall">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="7.943" />
+        <Point X="12.5" Y="7.943" />
+        <Point X="12.5" Y="5.455" />
+        <Point X="20.5" Y="5.455" />
+        <Point X="20.5" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAgAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Readability\UseParanthesisForFunctionCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Readability.ValidateEmpyParts">
+    <Position X="16.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAiAAAAAACABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Readability\ValidateEmpyParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Reliability.Rule198GlobalLocalVariablesShouldNotHaveSameName">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="7.943" />
+        <Point X="12.485" Y="7.943" />
+        <Point X="12.485" Y="5.436" />
+        <Point X="13.5" Y="5.436" />
+        <Point X="13.5" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABEBAAAAAAARAgAAQAAgAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reliabilty\LocalVariablesShoulsNotHaveSameName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Reliability.VariableInitializationUsageAnalyzer">
+    <Position X="18" Y="9.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ALCodeAnalysis.Reliability.VariableInitializationUsageAnalyzer.LocalVariableAnalyzer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Reliabilty\VariableInitializationUsageAnalyzer.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAgAIAACAAQAgBAAAmBEICCCAAAQYAGEAAAAAAAg=</HashCode>
+      <FileName>Reliabilty\VariableInitializationUsageAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Security.EmailAndPhoneNoMustNotBePresentInTheSource">
+    <Position X="16.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACKgACAAABAAAYgggAAEAgAAABAGAAeAAACMIAABAAA=</HashCode>
+      <FileName>Security\EmailAndPhoneNoNotPresentInTheSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALCodeAnalysis.Security.HardcodedIpAddress">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAAQQAgAAACAAACAAAAAABAAAAAAEAAAQA=</HashCode>
+      <FileName>Security\HardcodedIpAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Dynamics.Nav.CodeAnalysis.Diagnostics.DiagnosticAnalyzer">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <AssociationLine Name="SupportedVersions" Type="Microsoft.Dynamics.Nav.CodeAnalysis.VersionCompatibility">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.062" Y="0.551" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="SupportedVersions" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.Dynamics.Nav.CodeAnalysis.VersionCompatibility">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
